@@ -2,7 +2,7 @@
  httpsms for laravel tested in laravel v10
 
 
-read me please....
+
 
 this how you can [integrate] (`https://httpsms.com`)to your laravel app tested in laravel 10
 receive and send sms like a pro
