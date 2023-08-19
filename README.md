@@ -8,38 +8,40 @@ this how you can [integrate] (`https://httpsms.com`)to your laravel app tested i
 receive and send sms like a pro
 copy php files to thier folders based on folder structure  provided
 
-app/
-    Http/
-        Controllers/ 
-        Middleware/ 
-        Requests/
-    Providers/
-bootstrap/
-config/
-database/
-    factories/
-    migrations/
-    seeds/
-public/
-resources/
-    assets/
-        js/
-        sass/
-    lang/
-    views/
-routes/
-storage/
-    app/
-    framework/
-    logs/
-tests/
-vendor/
-.env
-artisan
-composer.json
-composer.lock
-package.json
-README.md
+.
+├── app/
+│   ├── Http/
+│   │   ├── Controllers/
+│   │   ├── Middleware/
+│   │   └── Requests/
+│   └── Providers/
+├── bootstrap/
+├── config/
+├── database/
+│   ├── factories/
+│   ├── migrations/
+│   └── seeds/
+├── public/
+├── resources/
+│   ├── assets/
+│   │   ├── js/
+│   │   └── sass/
+│   ├── lang/
+│   └── views/
+├── routes/
+├── storage/
+│   ├── app/
+│   ├── framework/
+│   └── logs/
+├── tests/
+├── vendor/
+├── .env
+├── artisan
+├── composer.json
+├── composer.lock
+├── package.json
+└── README.md
+
 
     composer install
 
