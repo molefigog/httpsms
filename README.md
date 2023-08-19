@@ -53,14 +53,14 @@ README.md
     php artisan serve
 
 you can replace code in WebhookController with the following
+```php
+   <?php
 
-<?php
+    namespace App\Http\Controllers;
 
-namespace App\Http\Controllers;
-
-use App\Models\SmsData;
-use Illuminate\Http\Request;
-use App\Models\WebhookData;
+    use App\Models\SmsData;
+    use Illuminate\Http\Request;
+    use App\Models\WebhookData;
 
 
 use Carbon\Carbon;
