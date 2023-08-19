@@ -54,7 +54,7 @@ README.md
 
 you can replace code in WebhookController with the following
 
-<!-- <?php
+<?php
 
 namespace App\Http\Controllers;
 
@@ -93,7 +93,7 @@ class WebhookController extends Controller
     return response()->json(['message' => 'Data stored successfully']);
 }
 
-} -->
+
 
 
 
